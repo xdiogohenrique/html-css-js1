@@ -1,0 +1,29 @@
+.carta{
+    width: 300px;
+    border: 1px solid #000;
+    box-shadow: 0 0 6px #000;
+    border-radius: 20px 20px 0 0;
+    margin: 10px;
+}
+
+.carta img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+#cartas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carta a{
+    background-color: #0f0;
+    display: block;
+    padding: 20px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}

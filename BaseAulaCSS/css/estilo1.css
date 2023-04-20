@@ -1,0 +1,40 @@
+/* Estilo Externo */
+
+p{
+    color:#ccc;
+    font-size: 20pt;
+}
+
+body{
+    background: linear-gradient(#000, #00f);
+    background-attachment: fixed;
+}
+
+/* seletor de classe 
+classe eu crio com o .*/
+
+.caixa {
+    background-color: #fff;
+    text-align: justify;
+    padding: 30px;
+    border: 5px dotted #0f0;
+    width: 300px;
+    border-radius: 30px ;
+}
+
+.sombra{
+    box-shadow: 10px 10px 1px #ff0;
+}
+
+/* estilo individual
+crio com # */ 
+
+#principal{
+    background-color: #000;
+    color: #fff;
+    font-size: 30pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
